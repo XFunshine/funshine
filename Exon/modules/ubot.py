@@ -1,7 +1,7 @@
-"""
+    2"""
 MIT License
 
-Copyright (c) 2022 ABISHNOI69
+Copyright (c) 2022 CodeNova
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,10 +22,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
-# ""DEAR PRO PEOPLE,  DON'T REMOVE & CHANGE THIS LINE
-# TG :- @Abishnoi1m
-#     UPDATE   :- Abishnoi_bots
-#     GITHUB :- ABISHNOI69 ""
 
 from asyncio.exceptions import TimeoutError
 
@@ -60,7 +56,7 @@ async def lastname(steal):
                 r = await conv.get_response()
                 response = await conv.get_response()
             except YouBlockedUserError:
-                await steal.reply("```Error, report to @AbishnoiMF```")
+                await steal.reply("```Error, report to @CodeNovaSec```")
                 return
             if r.text.startswith("Name"):
                 respond = await conv.get_response()
